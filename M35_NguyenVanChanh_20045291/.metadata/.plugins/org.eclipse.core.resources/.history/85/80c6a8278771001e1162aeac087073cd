@@ -1,0 +1,76 @@
+package fit.iuh;
+
+import java.io.IOException;
+
+import javax.annotation.Resource;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.sql.DataSource;
+
+@WebServlet("/SanPhamController")
+public class SanPhamController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	private SanPhamDao sanPham;
+
+	@Resource(name = "jdbc/QLDM")
+	private DataSource dataSoure;
+
+	public void init() throws ServletException {
+		super.init();
+		try {
+			sanPham = new SanPhamDao(dataSoure);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String command = request.getParameter("command");
+		if (command == null) {
+			command = "LIST";
+		}
+		switch (command) {
+		case "LIST": {
+
+			break;
+		}
+		case "LOAD": {
+
+			break;
+		}
+		case "DELETE": {
+
+			break;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + command);
+		}
+	}
+
+	
+	private void listSanPham(HttpServletRequest request, HttpServletResponse respone) {
+		
+	}
+	
+private void listSanPham(HttpServletRequest request, HttpServletResponse respone) {
+		
+	}
+
+private void listSanPham(HttpServletRequest request, HttpServletResponse respone) {
+	
+}
+
+private void listSanPham(HttpServletRequest request, HttpServletResponse respone) {
+	
+}
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doGet(request, response);
+	}
+}

@@ -1,0 +1,13 @@
+package fit.iuh;
+
+import javax.sql.DataSource;
+
+public class SanPhamDao {
+	private DataSource dataSource;
+
+	public SanPhamDao(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+	
+	
+}

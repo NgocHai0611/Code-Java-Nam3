@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+T:\M35_NguyenVanChanh_20045291\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3989177994.index
+\M35_NguyenVanChanh_20045291\src\main\java
+T:\M35_NguyenVanChanh_20045291\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\444892209.index
+\abc\src\main\java
+T:\M35_NguyenVanChanh_20045291\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1245973093.index
+\M35_NguyenVanChanh_20045291_1\src\main\java
+T:\M35_NguyenVanChanh_20045291\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2532797250.index
+\M35_NguyenVanChanh_20045291\src\main\java
